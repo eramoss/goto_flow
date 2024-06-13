@@ -1,17 +1,26 @@
 defmodule GotoFlow.MergeSort do
-  def sort(list) when length(list) <= 1, do: list
+  alias GotoFlow.Helpers
 
   def sort(list) do
-    {left, right} = split(list, div(length(list), 2))
-    merge(sort(left), sort(right))
+    {left, right} = Helpers.split_at(list, div(length(list), 2))
+    merge(sort(left, length(left)), sort(right, length(right)))
+  end
+
+  defp sort(list, 1), do: list
+
+  defp sort(list, n) do
+    {left, right} = Helpers.split_at(list, div(n, 2))
+    merge(sort(left, length(left)), sort(right, length(right)))
   end
 
   defp merge([], right), do: right
   defp merge(left, []), do: left
-  defp merge([h1 | t1], [h2 | _] = r) when h1 <= h2, do: [h1 | merge(t1, r)]
-  defp merge(l, [h2 | t2]), do: [h2 | merge(l, t2)]
 
-  defp split(list, at) do
-    {Enum.take(list, at), Enum.drop(list, at)}
+  defp merge([l | left], [r | right]) when l <= r do
+    [l | merge(left, [r | right])]
+  end
+
+  defp merge([l | left], [r | right]) when l > r do
+    [r | merge([l | left], right)]
   end
 end

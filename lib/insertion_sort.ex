@@ -3,9 +3,9 @@ defmodule GotoFlow.InsertionSort do
     insert_iter(list, [])
   end
 
-  defp insert_iter([], sorted), do: sorted
+  def insert_iter([], sorted), do: sorted
 
-  defp insert_iter([h | t], sorted) do
+  def insert_iter([h | t], sorted) do
     insert_iter(t, insert(h, sorted))
   end
 
