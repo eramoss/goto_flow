@@ -6,16 +6,11 @@ defmodule GotoFlow.Benchmarks do
     Benchee.run(
       %{
         "Selection Sort" => fn input -> GotoFlow.selection_sort(input) end,
-        # "Shell Sort" => fn input -> GotoFlow.shell_sort(input) end,
+        "Shell Sort" => fn input -> GotoFlow.shell_sort(input) end,
         "Bubble Sort" => fn input -> GotoFlow.bubble_sort(input) end,
         "Insertion Sort" => fn input -> GotoFlow.insertion_sort(input) end,
-        # "Quick Sort" => fn input -> GotoFlow.quick_sort(input) end,
+        "Quick Sort" => fn input -> GotoFlow.quick_sort(input) end,
         "Merge Sort" => fn input -> GotoFlow.merge_sort(input) end,
-        # "Heap Sort" => fn input -> GotoFlow.heap_sort(input) end,
-        # "Counting Sort" => fn input -> GotoFlow.counting_sort(input) end,
-        # "Radix Sort" => fn input -> GotoFlow.radix_sort(input) end,
-        # "Bucket Sort" => fn input -> GotoFlow.bucket_sort(input) end,
-
         "Elixir sort(merge)" => fn input -> Enum.sort(input) end
       },
       inputs: %{
