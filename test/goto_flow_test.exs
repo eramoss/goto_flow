@@ -32,4 +32,9 @@ defmodule GotoFlowTest do
     list = Helpers.random_list(10_000)
     assert GotoFlow.ShellSort.sort(list) == Enum.sort(list)
   end
+
+  test "ShellSortCiura/1 should sort a big list" do
+    list = Helpers.random_list(10_000)
+    assert GotoFlow.ShellSortCiura.sort(list) == Enum.sort(list)
+  end
 end
