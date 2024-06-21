@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/eramoss/Fire/goto_flow/cppsrc/build",
+  "command": "/usr/bin/c++ -I/home/eramoss/Fire/goto_flow/cppsrc/src -g -o CMakeFiles/goto_flow.dir/src/goto_flow.cpp.o -c /home/eramoss/Fire/goto_flow/cppsrc/src/goto_flow.cpp",
+  "file": "/home/eramoss/Fire/goto_flow/cppsrc/src/goto_flow.cpp",
+  "output": "CMakeFiles/goto_flow.dir/src/goto_flow.cpp.o"
+},
+{
+  "directory": "/home/eramoss/Fire/goto_flow/cppsrc/build",
+  "command": "/usr/bin/c++ -I/home/eramoss/Fire/goto_flow/cppsrc/src -I/home/eramoss/Fire/goto_flow/cppsrc/tests/goto_flow_tests -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/include -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest -g -o tests/CMakeFiles/goto_flow_tests.dir/bubble_sort.test.cpp.o -c /home/eramoss/Fire/goto_flow/cppsrc/tests/bubble_sort.test.cpp",
+  "file": "/home/eramoss/Fire/goto_flow/cppsrc/tests/bubble_sort.test.cpp",
+  "output": "tests/CMakeFiles/goto_flow_tests.dir/bubble_sort.test.cpp.o"
+},
+{
+  "directory": "/home/eramoss/Fire/goto_flow/cppsrc/build",
+  "command": "/usr/bin/c++ -I/home/eramoss/Fire/goto_flow/cppsrc/src -I/home/eramoss/Fire/goto_flow/cppsrc/tests/goto_flow_tests -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/include -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest -g -o tests/CMakeFiles/goto_flow_tests.dir/insertion_sort.test.cpp.o -c /home/eramoss/Fire/goto_flow/cppsrc/tests/insertion_sort.test.cpp",
+  "file": "/home/eramoss/Fire/goto_flow/cppsrc/tests/insertion_sort.test.cpp",
+  "output": "tests/CMakeFiles/goto_flow_tests.dir/insertion_sort.test.cpp.o"
+},
+{
+  "directory": "/home/eramoss/Fire/goto_flow/cppsrc/build",
+  "command": "/usr/bin/c++ -I/home/eramoss/Fire/goto_flow/cppsrc/src -I/home/eramoss/Fire/goto_flow/cppsrc/tests/goto_flow_tests -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/include -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest -g -o tests/CMakeFiles/goto_flow_tests.dir/main.cpp.o -c /home/eramoss/Fire/goto_flow/cppsrc/tests/main.cpp",
+  "file": "/home/eramoss/Fire/goto_flow/cppsrc/tests/main.cpp",
+  "output": "tests/CMakeFiles/goto_flow_tests.dir/main.cpp.o"
+},
+{
+  "directory": "/home/eramoss/Fire/goto_flow/cppsrc/build",
+  "command": "/usr/bin/c++ -I/home/eramoss/Fire/goto_flow/cppsrc/src -I/home/eramoss/Fire/goto_flow/cppsrc/tests/goto_flow_tests -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/include -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest -g -o tests/CMakeFiles/goto_flow_tests.dir/merge_sort.test.cpp.o -c /home/eramoss/Fire/goto_flow/cppsrc/tests/merge_sort.test.cpp",
+  "file": "/home/eramoss/Fire/goto_flow/cppsrc/tests/merge_sort.test.cpp",
+  "output": "tests/CMakeFiles/goto_flow_tests.dir/merge_sort.test.cpp.o"
+},
+{
+  "directory": "/home/eramoss/Fire/goto_flow/cppsrc/build",
+  "command": "/usr/bin/c++ -I/home/eramoss/Fire/goto_flow/cppsrc/src -I/home/eramoss/Fire/goto_flow/cppsrc/tests/goto_flow_tests -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/include -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest -g -o tests/CMakeFiles/goto_flow_tests.dir/quick_sort.test.cpp.o -c /home/eramoss/Fire/goto_flow/cppsrc/tests/quick_sort.test.cpp",
+  "file": "/home/eramoss/Fire/goto_flow/cppsrc/tests/quick_sort.test.cpp",
+  "output": "tests/CMakeFiles/goto_flow_tests.dir/quick_sort.test.cpp.o"
+},
+{
+  "directory": "/home/eramoss/Fire/goto_flow/cppsrc/build",
+  "command": "/usr/bin/c++ -I/home/eramoss/Fire/goto_flow/cppsrc/src -I/home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googlemock/include -I/home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googlemock -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/include -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/eramoss/Fire/goto_flow/cppsrc/build",
+  "command": "/usr/bin/c++ -I/home/eramoss/Fire/goto_flow/cppsrc/src -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googlemock/include -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googlemock -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/include -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/eramoss/Fire/goto_flow/cppsrc/build",
+  "command": "/usr/bin/c++ -I/home/eramoss/Fire/goto_flow/cppsrc/src -I/home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/include -I/home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/eramoss/Fire/goto_flow/cppsrc/build",
+  "command": "/usr/bin/c++ -I/home/eramoss/Fire/goto_flow/cppsrc/src -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/include -isystem /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/eramoss/Fire/goto_flow/cppsrc/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

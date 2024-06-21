@@ -1,0 +1,115 @@
+Start testing: Jun 21 17:29 -03
+----------------------------------------------------------
+1/2 Testing: goto_flow_tests
+1/2 Test: goto_flow_tests
+Command: "/home/eramoss/Fire/goto_flow/cppsrc/build/tests/goto_flow_tests" "--gtest_filter=*" "--gtest_color=no"
+Directory: /home/eramoss/Fire/goto_flow/cppsrc/build
+"goto_flow_tests" start time: Jun 21 17:29 -03
+Output:
+----------------------------------------------------------
+[==========] Running 12 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from BubbleSortTest
+[ RUN      ] BubbleSortTest.BubbleSortTest
+[       OK ] BubbleSortTest.BubbleSortTest (0 ms)
+[ RUN      ] BubbleSortTest.BigInputTest
+[       OK ] BubbleSortTest.BigInputTest (262 ms)
+[ RUN      ] BubbleSortTest.BigInputRandomTest
+[       OK ] BubbleSortTest.BigInputRandomTest (267 ms)
+[----------] 3 tests from BubbleSortTest (529 ms total)
+
+[----------] 3 tests from InsertionSortTest
+[ RUN      ] InsertionSortTest.InsertionSortTest
+[       OK ] InsertionSortTest.InsertionSortTest (0 ms)
+[ RUN      ] InsertionSortTest.BigInputTest
+[       OK ] InsertionSortTest.BigInputTest (124 ms)
+[ RUN      ] InsertionSortTest.BigInputRandomTest
+[       OK ] InsertionSortTest.BigInputRandomTest (62 ms)
+[----------] 3 tests from InsertionSortTest (187 ms total)
+
+[----------] 3 tests from MergeSortTest
+[ RUN      ] MergeSortTest.MergeSortTest
+[       OK ] MergeSortTest.MergeSortTest (0 ms)
+[ RUN      ] MergeSortTest.BigInputTest
+[       OK ] MergeSortTest.BigInputTest (1 ms)
+[ RUN      ] MergeSortTest.BigInputRandomTest
+[       OK ] MergeSortTest.BigInputRandomTest (1 ms)
+[----------] 3 tests from MergeSortTest (3 ms total)
+
+[----------] 3 tests from QuickSortTest
+[ RUN      ] QuickSortTest.QuickSortTest
+[       OK ] QuickSortTest.QuickSortTest (0 ms)
+[ RUN      ] QuickSortTest.BigInputTest
+[       OK ] QuickSortTest.BigInputTest (162 ms)
+[ RUN      ] QuickSortTest.BigInputRandomTest
+[       OK ] QuickSortTest.BigInputRandomTest (1 ms)
+[----------] 3 tests from QuickSortTest (164 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 4 test suites ran. (885 ms total)
+[  PASSED  ] 12 tests.
+<end of output>
+Test time =   0.89 sec
+----------------------------------------------------------
+Test Passed.
+"goto_flow_tests" end time: Jun 21 17:29 -03
+"goto_flow_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: unit_tests
+2/2 Test: unit_tests
+Command: "/home/eramoss/Fire/goto_flow/cppsrc/build/tests/goto_flow_tests"
+Directory: /home/eramoss/Fire/goto_flow/cppsrc/build/tests
+"unit_tests" start time: Jun 21 17:29 -03
+Output:
+----------------------------------------------------------
+[==========] Running 12 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from BubbleSortTest
+[ RUN      ] BubbleSortTest.BubbleSortTest
+[       OK ] BubbleSortTest.BubbleSortTest (0 ms)
+[ RUN      ] BubbleSortTest.BigInputTest
+[       OK ] BubbleSortTest.BigInputTest (250 ms)
+[ RUN      ] BubbleSortTest.BigInputRandomTest
+[       OK ] BubbleSortTest.BigInputRandomTest (278 ms)
+[----------] 3 tests from BubbleSortTest (528 ms total)
+
+[----------] 3 tests from InsertionSortTest
+[ RUN      ] InsertionSortTest.InsertionSortTest
+[       OK ] InsertionSortTest.InsertionSortTest (0 ms)
+[ RUN      ] InsertionSortTest.BigInputTest
+[       OK ] InsertionSortTest.BigInputTest (126 ms)
+[ RUN      ] InsertionSortTest.BigInputRandomTest
+[       OK ] InsertionSortTest.BigInputRandomTest (62 ms)
+[----------] 3 tests from InsertionSortTest (189 ms total)
+
+[----------] 3 tests from MergeSortTest
+[ RUN      ] MergeSortTest.MergeSortTest
+[       OK ] MergeSortTest.MergeSortTest (0 ms)
+[ RUN      ] MergeSortTest.BigInputTest
+[       OK ] MergeSortTest.BigInputTest (1 ms)
+[ RUN      ] MergeSortTest.BigInputRandomTest
+[       OK ] MergeSortTest.BigInputRandomTest (1 ms)
+[----------] 3 tests from MergeSortTest (3 ms total)
+
+[----------] 3 tests from QuickSortTest
+[ RUN      ] QuickSortTest.QuickSortTest
+[       OK ] QuickSortTest.QuickSortTest (0 ms)
+[ RUN      ] QuickSortTest.BigInputTest
+[       OK ] QuickSortTest.BigInputTest (169 ms)
+[ RUN      ] QuickSortTest.BigInputRandomTest
+[       OK ] QuickSortTest.BigInputRandomTest (1 ms)
+[----------] 3 tests from QuickSortTest (170 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 4 test suites ran. (891 ms total)
+[  PASSED  ] 12 tests.
+<end of output>
+Test time =   0.89 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: Jun 21 17:29 -03
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 21 17:29 -03
