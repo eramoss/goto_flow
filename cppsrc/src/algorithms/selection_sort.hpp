@@ -1,3 +1,6 @@
+#pragma once
+
+#include <cstddef>
 namespace goto_flow {
 
 template <typename T> void selection_sort(T *arr, size_t size) {
@@ -13,6 +16,4 @@ template <typename T> void selection_sort(T *arr, size_t size) {
     arr[i] = temp;
   }
 }
-
 } // namespace goto_flow
-}

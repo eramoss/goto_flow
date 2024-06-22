@@ -1,3 +1,5 @@
+#pragma once
+
 #include <cstddef>
 namespace goto_flow {
 template <typename T> void insertion_sort(T *arr, size_t size) {

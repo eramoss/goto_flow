@@ -7,8 +7,10 @@
 namespace goto_flow {
 template <typename Func> class Benchmark {
 public:
-  Benchmark(Func f, std::string name, size_t n = 1, bool output = false)
-      : f(f), name(name), n(n), output(output) {
+  Benchmark(Func f, std::string name, size_t n = 1, bool output = true)
+      : f(f), name(name), n(n), output(output) {}
+
+  template <typename... Args> void run(std::string identity, Args &&...args) {
     min_time = std::chrono::nanoseconds::max();
     max_time = std::chrono::nanoseconds::min();
     std::chrono::nanoseconds total_time(0);
@@ -16,7 +18,7 @@ public:
 
     for (size_t i = 0; i < n; ++i) {
       auto start = std::chrono::high_resolution_clock::now();
-      f();
+      f(std::forward<Args>(args)...);
       auto end = std::chrono::high_resolution_clock::now();
       std::chrono::nanoseconds duration =
           std::chrono::duration_cast<std::chrono::nanoseconds>(end - start);
@@ -36,12 +38,12 @@ public:
         std::chrono::nanoseconds(static_cast<long long>(std::sqrt(variance)));
 
     if (output) {
-      print_statistics();
+      print_statistics(identity);
     }
   }
 
-  void print_statistics() const {
-    std::cout << "Benchmark results of " << name << ": (" << n
+  void print_statistics(std::string identity) const {
+    std::cout << "Benchmark results of " << name + " " + identity << ": (" << n
               << " runtimes)\n";
     std::cout << "Average time: " << average_time_of_execution.count()
               << " ns\n";
@@ -49,6 +51,8 @@ public:
     std::cout << "Maximum time: " << max_time.count() << " ns\n";
     std::cout << "Standard deviation: " << stddev_time.count() << " ns\n";
   }
+
+  void set_output(bool output) { this->output = output; }
 
 private:
   Func f;
@@ -62,4 +66,5 @@ public:
   std::chrono::nanoseconds max_time;
   std::chrono::nanoseconds stddev_time;
 };
+
 } // namespace goto_flow
